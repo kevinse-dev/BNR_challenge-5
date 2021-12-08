@@ -1,0 +1,35 @@
+html, body{
+    box-sizing: border-box;
+    background-color:#8a755a;
+}
+.nav{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.nav img,h3{
+    height: 40px;
+    margin-right: 20px;
+    color: orange;
+}
+
+#player img, #com img{
+    width: 7em;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+
+#refresh img{
+    width: 3em;
+    display: flex;
+    cursor: pointer;
+}
+
+.active{
+    background-color: rgba(255, 255, 255, 0.537);
+    border-radius: 4px;
+}
+
+.vs{
+    font-size: 3em;
+}

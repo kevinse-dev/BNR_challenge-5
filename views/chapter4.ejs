@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/chapter4-style.css">
+    <title>Challenge Chapter 4</title>
+</head>
+<body>
+    <div class="d-flex nav">
+        <img src="./assets/back.png" alt="" srcset="">
+        <img src="./assets/logo.png" alt="" srcset="">
+        <h3>Rock Papper Scissors </h3>
+    </div>
+    <div class=" w-50 mx-auto mt-5">
+        <div class="row text-center" id="player">
+            <div class="col">
+                <h1>Player 1 [<span id="scorePlayer">0</span>]</h1>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/batu.png" alt="" id="itemPlayer" class="batu">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/kertas.png" alt="" id="itemPlayer" class="kertas">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/gunting.png" alt="" id="itemPlayer" class="gunting">
+                </div>
+                </div>
+                <div class="col vs h-auto d-flex justify-content-center align-self-center">
+                    <h1>vs</h1>
+                </div>
+            <div class="col" id="com">
+                <h1>Comp [<span id="scoreCom">0</span>]</h1>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/batu.png" alt="" id="itemComp" class="batuComp">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/kertas.png" alt="" id="itemComp" class="kertasComp">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/gunting.png" alt="" id="itemComp" class="guntingComp">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-25 mt-2 mx-auto">
+        <div class="d-flex justify-content-center" id="refresh">
+            <img src="./assets/refresh.png" alt="">
+        </div>
+    </div>
+
+
+
+
+    <script src="js/chapter4-script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
